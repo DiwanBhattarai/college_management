@@ -1,0 +1,14 @@
+-- CREATE TABLE college
+-- (
+-- college_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+-- name VARCHAR(255) NOT NULL,
+-- college_code INT not null,
+-- principal_name VARCHAR(100) NOT NULL,
+-- college_type ENUM('Private','Government','Community'),
+-- address VARCHAR(255),
+-- email VARCHAR(100) UNIQUE NOT NULL,
+-- contact_no INT NOT NULL,
+-- establisheda_at DATE
+-- );
+-- ALTER TABLE college RENAME COLUMN establisheda_at TO established_at;
+RENAME TABLE college TO colleges;
