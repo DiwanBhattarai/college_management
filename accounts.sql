@@ -4,6 +4,7 @@ CREATE TABLE accounts (
     college_id INT NOT NULL,
     student_id INT,
     employee_id INT,
+    
     transaction_type ENUM('Student Fee','Salary','Expense','Income'),
     amount INT NOT NULL,
     payment_date DATE,

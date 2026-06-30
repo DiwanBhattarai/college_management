@@ -1,6 +1,7 @@
 -- CREATE TABLE college
 -- (
 -- college_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+
 -- name VARCHAR(255) NOT NULL,
 -- college_code INT not null,
 -- principal_name VARCHAR(100) NOT NULL,
@@ -11,4 +12,5 @@
 -- establisheda_at DATE
 -- );
 -- ALTER TABLE college RENAME COLUMN establisheda_at TO established_at;
-RENAME TABLE college TO colleges;
+-- RENAME TABLE college TO colleges;
+ALTER TABLE colleges MODIFY COLUMN contact_no VARCHAR(50);
