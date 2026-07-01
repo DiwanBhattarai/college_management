@@ -15,5 +15,3 @@
  ALTER TABLE departments ADD COLUMN head_of_department INT NOT NULL;
  ALTER TABLE departments ADD CONSTRAINT fk_head_of_department 
  	FOREIGN KEY (head_of_department) REFERENCES employees(employee_id);
-    
-    

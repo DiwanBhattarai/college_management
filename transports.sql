@@ -6,7 +6,6 @@ vehicle_id INT NOT NULL,
 student_id INT NOT NULL,
 driver_id INT NOT NULL,
 conductor_id INT,
-
 route_name VARCHAR(100) NOT NULL,
 departure_time TIME NOT NULL,
 arrival_time TIME NOT NULL,
